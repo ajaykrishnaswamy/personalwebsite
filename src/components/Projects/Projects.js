@@ -2,11 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -37,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="One Click SAT"
               description={`Designed a platform for educators to create and deploy practice SAT diagnostic tests to students using generative AI.\nBuilt using Next.js and Supabase, deployed with Vercel, and the product is currently being used by a tutoring center in Atlanta.\nAccepted into the CREATE-X Startup Accelerator with $5000 funding, and won 8th place in the Headstarter Buildathon.\n(Jan 2025 - Mar 2025)`}
-              ghLink="https://www.oneclicksat.fyi/"
+              ghLink="https://github.com/ajaykrishnaswamy/oneclicksatai"
               demoLink="https://youtu.be/Z7aB6NjN95s"
             />
           </Col>
