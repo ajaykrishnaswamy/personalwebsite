@@ -23,68 +23,62 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Puter"
+              description={`Successfully merged an open source contribution to Puter, an Internet OS with over 30,000 stars on GitHub.\nCreated a JavaScript automation script that generates descriptions for 100+ events called in the Puter codebase.\nAuto-scans a manual overrides file to override incorrect descriptions and updates the events documentation accordingly.\nSaved 100+ hours of documentation time for Puter developers, and potentially 1000+ hours for future Puter contributors.\n(Mar 2025 - Mar 2025)`}
+              ghLink="https://github.com/HeyPuter/puter/pull/1164"
+              demoLink="https://www.youtube.com/watch?v=E0WL8MbU8JA"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="One Click SAT"
+              description={`Designed a platform for educators to create and deploy practice SAT diagnostic tests to students using generative AI.\nBuilt using Next.js and Supabase, deployed with Vercel, and the product is currently being used by a tutoring center in Atlanta.\nAccepted into the CREATE-X Startup Accelerator with $5000 funding, and won 8th place in the Headstarter Buildathon.\n(Jan 2025 - Mar 2025)`}
+              ghLink="https://www.oneclicksat.fyi/"
+              demoLink="https://youtu.be/Z7aB6NjN95s"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="LLM Evaluation"
+              description={`Created a platform using Next, Groq, Supabase that evaluated responses from LLMs using another LLM as a grading tool.\nDeveloped an interface where users could input their custom questions for the LLM and experiment with different prompts.\n(Jan 2025 - Feb 2025)`}
+              ghLink="https://github.com/ajaykrishnaswamy/llmeval02"
+              demoLink={null}
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Market Anomaly Detection"
+              description={`Trained a model using LSTM and Isolation Forest to predict anomalies in the stock market.\nUsed a correlation matrix to narrow down the useful features and received a precision of 85% on data from 2000 - 2020.\n(Jan 2025 - Feb 2025)`}
+              ghLink={null}
+              demoLink="https://www.youtube.com/watch?v=DGQTm1KxFyc"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Protestor Friendly Live Feed"
+              description={`Designed a face blurring algorithm with a Generative Adversarial Network, protecting protesters' anonymity in news media protest footage.\n(Feb 2022 - Aug 2022)`}
+              ghLink="https://devpost.com/software/protestor-friendly-live-feed"
+              demoLink={null}
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={bitsOfCode}
+              isBlog={true}
+              title="Final Design Portfolio"
+              description="A detailed write-up on my final design portfolio, covering process, outcomes, and learnings."
+              ghLink={null}
+              demoLink="https://medium.com/@ajvkrish/final-design-portfolio-13f5624c036b"
             />
           </Col>
         </Row>
