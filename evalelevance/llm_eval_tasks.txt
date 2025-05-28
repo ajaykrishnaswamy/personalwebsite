@@ -1,0 +1,25 @@
+1. Set up a new project with FastAPI (backend) and React or Next.js (frontend), and initialize a SQLite database.
+2. Design the SQLite database schema to store:
+   - Prompts
+   - Model responses
+   - Model metadata (name, version, etc.)
+   - Evaluation scores (robustness, factuality, etc.)
+   - User experiments and feedback
+3. Integrate Groq LLMs for generating model responses to prompts.
+4. Build backend API endpoints to:
+   - Accept experiment prompts and selected models
+   - Generate responses from each model
+   - Store prompt/response/model combinations in the database
+   - Call Fiddler AI Auditor to evaluate responses and store robustness scores
+   - Expose an LLM Evaluation API endpoint that takes (prompt, response) and returns factual/not factual
+5. Build a frontend dashboard for engineers to:
+   - Enter experiment prompts
+   - Select models to compare
+   - View model responses and evaluation scores side-by-side
+   - See robustness and factuality scores for each response
+   - Receive recommendations if a model's evaluation score is low (stretch goal)
+6. Integrate Fiddler AI Auditor into the backend for robustness scoring.
+7. Implement the LLM Evaluation API for factuality checking.
+8. (Stretch) Implement a recommendation engine to suggest prompt improvements when scores are low.
+9. Deploy the system (API and dashboard) for internal use.
+10. Write documentation and usage instructions for Elevance engineers. 
